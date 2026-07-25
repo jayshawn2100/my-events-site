@@ -1,0 +1,19 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" rx="36" fill="#0f182d"/>
+  <rect x="40" y="40" width="720" height="920" rx="30" fill="url(#bg)"/>
+  <rect x="170" y="300" width="120" height="260" rx="10" fill="#7ac5ff" fill-opacity="0.95"/>
+  <rect x="330" y="230" width="140" height="330" rx="10" fill="#ffb16f" fill-opacity="0.95"/>
+  <rect x="510" y="260" width="110" height="300" rx="10" fill="#89f0c8" fill-opacity="0.95"/>
+  <path d="M0 780C180 690 290 670 410 730C530 790 650 820 800 780V1000H0Z" fill="#193a5c"/>
+  <text x="110" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#fff">CITY LIGHTS</text>
+  <text x="110" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffcf99">PICNIC</text>
+  <text x="110" y="270" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#dceeff">Good food • Live music • Dusk</text>
+  <rect x="110" y="760" width="220" height="52" rx="26" fill="#4cc9f0"/>
+  <text x="148" y="794" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">Bring a friend</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#213a5f"/>
+      <stop offset="100%" stop-color="#08101f"/>
+    </linearGradient>
+  </defs>
+</svg>

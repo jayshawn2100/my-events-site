@@ -1,0 +1,19 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" rx="36" fill="#111b33"/>
+  <rect x="40" y="40" width="720" height="920" rx="30" fill="url(#bg)"/>
+  <circle cx="620" cy="220" r="180" fill="#ffb16f" fill-opacity="0.9"/>
+  <path d="M0 740C150 660 260 640 380 690C520 748 650 790 800 720V1000H0Z" fill="#1f325d"/>
+  <path d="M0 820C210 760 340 770 470 830C590 884 710 900 800 856V1000H0Z" fill="#0f172e"/>
+  <rect x="110" y="150" width="240" height="34" rx="17" fill="#fff" fill-opacity="0.9"/>
+  <text x="110" y="280" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">SUNSET</text>
+  <text x="110" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffcf99">JAZZ NIGHTS</text>
+  <text x="110" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#fce9d4">Rooftop lounge • Live set • 8PM</text>
+  <rect x="110" y="450" width="190" height="48" rx="24" fill="#ff7b54"/>
+  <text x="150" y="483" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">Reserve now</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c315e"/>
+      <stop offset="100%" stop-color="#0c1024"/>
+    </linearGradient>
+  </defs>
+</svg>
