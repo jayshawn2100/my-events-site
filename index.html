@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,15 +7,15 @@
       name="description"
       content="Pulse Events brings you stylish local experiences, vibrant event posters, and quick WhatsApp booking."
     />
-    <title>Pulse Events</title>
+    <title data-ko="펄스이벤트">Pulse Events</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <nav class="topbar">
-        <a class="brand translate" href="#" data-en="PulseEvents" data-ko="PulseEvents">PulseEvents</a>
+        <a class="brand translate" href="#" data-en="PulseEvents" data-ko="펄스이벤트">PulseEvents</a>
         <div class="topbar-actions">
-          <a class="nav-link translate" href="#events" data-en="Explore Events" data-ko="이벤트 둘러보기">이벤트 둘러보기</a>
+          <a class="nav-link translate" href="#events" data-en="Explore Events" data-ko="이벤트 둘러보기">Explore Events</a>
         </div>
       </nav>
 
@@ -29,15 +29,14 @@
             <a class="secondary-btn translate" href="https://wa.me/254700000000" target="_blank" rel="noreferrer" data-en="WhatsApp us" data-ko="카톡으로 문의">WhatsApp us</a>
           </div>
         </div>
-
         <div class="hero-card" aria-label="Featured event preview">
-          <div class="hero-card-chip translate" data-en="This week" data-ko="이번 주">This week</div>
-          <h3 class="translate" data-en="Sunset Jazz Nights" data-ko="선셋 재즈 나이트">Sunset Jazz Nights</h3>
-          <p class="translate" data-en="Live set • Rooftop lounge • 8 PM" data-ko="라이브 공연 • 루프탑 라운지 • 오후 8시">Live set • Rooftop lounge • 8 PM</p>
+          <div class="hero-card-chip translate" data-en="This month" data-ko="이번 달">This month</div>
+          <h3 class="translate" data-en="K-Pop Concerts" data-ko="K-POP 콘서트">K-Pop Concerts</h3>
+          <p class="translate" data-en="August concerts you do not want to miss!" data-ko="8월 콘서트, 놓치지 마세요!">August concerts you do not want to miss!</p>
           <ul>
-            <li class="translate" data-en="VIP lounge access" data-ko="VIP 라운지 이용">VIP lounge access</li>
+            <li class="translate" data-en="Early bird tickets are available" data-ko="얼리버드 티켓을 구할 수 있어">Early bird tickets are available</li>
             <li class="translate" data-en="Complimentary welcome drink" data-ko="환영 음료 제공">Complimentary welcome drink</li>
-            <li class="translate" data-en="Easy walk-in booking" data-ko="편리한 현장 예약">Easy walk-in booking</li>
+          
           </ul>
         </div>
       </div>
@@ -47,43 +46,68 @@
       <section id="events" class="events-section">
         <div class="section-heading">
           <p class="eyebrow translate" data-en="Featured events" data-ko="추천 이벤트">Featured events</p>
-          <h2 class="translate" data-en="Pick your perfect plan for the weekend." data-ko="이번 주말에 어울리는 일정을 골라보세요.">Pick your perfect plan for the weekend.</h2>
+          <h2 class="translate" data-en="Pick your perfect plan for the month." data-ko="이번 달에 어울리는 일정을 골라보세요.">Pick your perfect plan for the month.</h2>
         </div>
 
         <div class="event-grid">
           <article class="event-card">
-            <img src="assets/poster-sunset.svg" alt="Poster for Sunset Jazz Nights" />
+            <img src="assets/enhypen-2026.jpg" alt="ENHYPEN 2026 event poster" />
             <div class="event-body">
               <div class="event-meta">
-                <span class="translate" data-en="Friday • 8:00 PM" data-ko="금요일 • 오후 8:00">Friday • 8:00 PM</span>
-                <span class="translate" data-en="Jazz" data-ko="재즈">Jazz</span>
+                <span class="translate" data-en="August 8–9, 2026" data-ko="2026년 8월 8–9일">August 8–9, 2026</span>
+                <span class="translate" data-en="Concert" data-ko="콘서트">Concert</span>
               </div>
-              <h3 class="translate" data-en="Sunset Jazz Nights" data-ko="선셋 재즈 나이트">Sunset Jazz Nights</h3>
-              <p class="translate" data-en="Soft lights, smooth tunes, and a golden-hour city view." data-ko="부드러운 조명, 잔잔한 선율, 황금빛 도시의 전망.">Soft lights, smooth tunes, and a golden-hour city view.</p>
+              <h3 class="translate" data-en="ENHYPEN 2026" data-ko="ENHYPEN 2026">ENHYPEN 2026</h3>
+              <ul class="event-details">
+                <li class="translate" data-en="Dates: August 8–9, 2026" data-ko="날짜: 2026년 8월 8–9일">Dates: August 8–9, 2026</li>
+                <li class="translate" data-en="Venue: Busan Sajik Gymnasium" data-ko="장소: 부산 사직 체육관">Venue: Busan Sajik Gymnasium</li>
+                <li class="translate" data-en="Time:" data-ko="시간:">Time:</li>
+                <li class="translate" data-en="Aug. 8 – 6:00 PM (KST)" data-ko="8월 8일 – 오후 6:00 (KST)">Aug. 8 – 6:00 PM (KST)</li>
+                <li class="translate" data-en="Aug. 9 – 5:00 PM (KST)" data-ko="8월 9일 – 오후 5:00 (KST)">Aug. 9 – 5:00 PM (KST)</li>
+                <li class="translate" data-en="Category: K-pop Concert" data-ko="카테고리: K-pop 콘서트">Category: K-pop Concert</li>
+                <li class="translate" data-en="Ticket Status: Available" data-ko="티켓 상태: 예약 가능">Ticket Status: Available</li>
+              </ul>
             </div>
           </article>
 
           <article class="event-card">
-            <img src="assets/poster-spark.svg" alt="Poster for Neon Glow Party" />
+            <img src="assets/26009546_p.gif" alt="STAYC fan concert poster" />
             <div class="event-body">
               <div class="event-meta">
-                <span class="translate" data-en="Saturday • 10:30 PM" data-ko="토요일 • 오후 10:30">Saturday • 10:30 PM</span>
-                <span class="translate" data-en="Party" data-ko="파티">Party</span>
+                <span class="translate" data-en="August 22–23, 2026" data-ko="2026년 8월 22–23일">August 22–23, 2026</span>
+                <span class="translate" data-en="Concert" data-ko="콘서트">Concert</span>
               </div>
-              <h3 class="translate" data-en="Neon Glow Party" data-ko="네온 글로우 파티">Neon Glow Party</h3>
-              <p class="translate" data-en="Dance through vibrant lights and an energetic rooftop crowd." data-ko="화려한 조명과 활기찬 루프탑 관객 속에서 춤추세요.">Dance through vibrant lights and an energetic rooftop crowd.</p>
+              <h3 class="translate" data-en="STAYC FAN CONCERT TOUR \"STAY CLOSER\"" data-ko="STAYC FAN CONCERT TOUR \"STAY CLOSER\"">STAYC FAN CONCERT TOUR "STAY CLOSER"</h3>
+              <ul class="event-details">
+                <li class="translate" data-en="Dates: August 22–23, 2026" data-ko="날짜: 2026년 8월 22–23일">Dates: August 22–23, 2026</li>
+                <li class="translate" data-en="Venue: Blue Square SOL Travel Hall" data-ko="장소: 블루스퀘어 SOL 트래블 홀">Venue: Blue Square SOL Travel Hall</li>
+                <li class="translate" data-en="Time:" data-ko="시간:">Time:</li>
+                <li class="translate" data-en="Aug. 22 – 6:00 PM" data-ko="8월 22일 – 오후 6:00">Aug. 22 – 6:00 PM</li>
+                <li class="translate" data-en="Aug. 23 – 5:00 PM" data-ko="8월 23일 – 오후 5:00">Aug. 23 – 5:00 PM</li>
+                <li class="translate" data-en="Category: K-pop Concert" data-ko="카테고리: K-pop 콘서트">Category: K-pop Concert</li>
+                <li class="translate" data-en="Ticket Status: Available" data-ko="티켓 상태: 예약 가능">Ticket Status: Available</li>
+              </ul>
             </div>
           </article>
 
           <article class="event-card">
-            <img src="assets/poster-city.svg" alt="Poster for City Lights Picnic" />
+            <img src="assets/26008596_p.gif" alt="BIGBANG world tour poster" />
             <div class="event-body">
               <div class="event-meta">
-                <span class="translate" data-en="Sunday • 5:00 PM" data-ko="일요일 • 오후 5:00">Sunday • 5:00 PM</span>
-                <span class="translate" data-en="Outdoors" data-ko="야외">Outdoors</span>
+                <span class="translate" data-en="August 21–23, 2026" data-ko="2026년 8월 21–23일">August 21–23, 2026</span>
+                <span class="translate" data-en="Concert" data-ko="콘서트">Concert</span>
               </div>
-              <h3 class="translate" data-en="City Lights Picnic" data-ko="시티 라이트 피크닉">City Lights Picnic</h3>
-              <p class="translate" data-en="Relax with good food, music, and a skyline view at dusk." data-ko="맛있는 음식, 음악, 석양의 스카이라인을 즐기며 여유를 누리세요.">Relax with good food, music, and a skyline view at dusk.</p>
+              <h3 class="translate" data-en="BIGBANG WORLD TOUR 2026" data-ko="BIGBANG WORLD TOUR 2026">BIGBANG WORLD TOUR 2026</h3>
+              <ul class="event-details">
+                <li class="translate" data-en="Date: August 21–23, 2026" data-ko="날짜: 2026년 8월 21–23일">Date: August 21–23, 2026</li>
+                <li class="translate" data-en="Venue: Goyang Stadium" data-ko="장소: 고양 스타디움">Venue: Goyang Stadium</li>
+                <li class="translate" data-en="Time:" data-ko="시간:">Time:</li>
+                <li class="translate" data-en="Aug. 21 – 7:30 PM" data-ko="8월 21일 – 오후 7:30">Aug. 21 – 7:30 PM</li>
+                <li class="translate" data-en="Aug. 22 – 7:30 PM" data-ko="8월 22일 – 오후 7:30">Aug. 22 – 7:30 PM</li>
+                <li class="translate" data-en="Aug. 23 – 7:30 PM" data-ko="8월 23일 – 오후 7:30">Aug. 23 – 7:30 PM</li>
+                <li class="translate" data-en="Category: K-pop Concert" data-ko="카테고리: K-pop 콘서트">Category: K-pop Concert</li>
+                <li class="translate" data-en="Ticket Status: Available" data-ko="티켓 상태: 예약 가능">Ticket Status: Available</li>
+              </ul>
             </div>
           </article>
         </div>
@@ -91,12 +115,17 @@
     </main>
 
     <footer class="footer">
-      <p class="translate" data-en="Ready to plan your next outing?" data-ko="다음 모임 계획을 세울 준비가 되셨나요?">Ready to plan your next outing?</p>
+      <p class="translate" data-en="Ready to reserve your ticket?" data-ko="티켓을 예약할 준비가 되셨나요?">Ready to reserve your ticket?</p>
       <a class="primary-btn translate" href="https://wa.me/254700000000" target="_blank" rel="noreferrer" data-en="Message us on WhatsApp" data-ko="WhatsApp으로 문의하기">Message us on WhatsApp</a>
     </footer>
 
     <script>
+      const title = document.querySelector("title");
       const translatable = document.querySelectorAll(".translate");
+
+      if (title) {
+        title.textContent = title.dataset.ko || title.textContent;
+      }
 
       translatable.forEach((element) => {
         const text = element.dataset.ko;
